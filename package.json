@@ -1,0 +1,62 @@
+{
+  "name": "reactphp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@capacitor/android": "^2.2.0",
+    "@capacitor/core": "^2.2.0",
+    "aos": "^2.3.4",
+    "axios": "^0.19.2",
+    "create-react-app": "^3.4.1",
+    "demo2": "^0.1.0",
+    "leaflet": "^1.6.0",
+    "moment": "^2.24.0",
+    "moment-business": "^3.0.1",
+    "npm": "^6.14.5",
+    "react": "^16.11.0",
+    "react-copy-to-clipboard": "^5.0.2",
+    "react-dom": "^16.11.0",
+    "react-download-link": "^2.3.0",
+    "react-google-login": "^5.1.22",
+    "react-icons": "^3.11.0",
+    "react-image-crop": "^8.6.2",
+    "react-infinite-scroll-component": "^5.0.4",
+    "react-leaflet": "^2.6.3",
+    "react-leaflet-search": "^1.0.3",
+    "react-notifications-component": "^3.0.3",
+    "react-onesignal": "^1.7.0",
+    "react-paystack": "^3.0.1",
+    "react-responsive-carousel": "^3.2.11",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.1",
+    "react-share": "^4.3.1",
+    "react-to-print": "^2.12.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "compile": "node-sass src/sass/main.scss src/css/main.css -w"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@capacitor/cli": "2.2.0",
+    "node-sass": "^4.13.1"
+  }
+}
